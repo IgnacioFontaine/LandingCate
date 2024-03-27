@@ -4,6 +4,8 @@
   background-color: rgb(65, 65, 65);
   display: flex;
   margin-top: 150px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .footer-title{

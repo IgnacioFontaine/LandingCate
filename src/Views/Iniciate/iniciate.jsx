@@ -5,7 +5,7 @@ import Groups from "../../Components/Groups/groups";
 
 const Iniciate = () => {
   const iniciate_groups =
-    [{ id: 1, nombre: "REPADI" },
+    [{ id: 1, nombre: "REPADI", significado:"Reunidos para Dios" },
       { id: 2, nombre: "MACADI" },
       { id: 3, nombre: "HELAFE" },
       { id: 4, nombre: "FRACODI" },

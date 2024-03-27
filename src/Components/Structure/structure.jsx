@@ -10,17 +10,17 @@ const Structure = () => {
         <div className="structure-group">
         <h2>INICIATE</h2>
         <h4>Grupos de 1er a 3er año</h4>
-        <Link to="/iniciate"><h6>ver más. . . </h6></Link>
+        <Link to="/iniciate"><h5>ver más. . . </h5></Link>
       </div>
       <div className="structure-group">
         <h2>CATE</h2>
           <h4>Grupos de 4to a 1er año de la Facultad</h4>
-          <Link to="/cate"><h6>ver más. . . </h6></Link>
+          <Link to="/cate"><h5>ver más. . . </h5></Link>
       </div>
       <div className="structure-group">
         <h2>APOSTOLATE</h2>
         <h4>Grupo Universitario</h4>
-        <Link to="/apostolate"><h6>ver más. . . </h6></Link>
+        <Link to="/apostolate"><h5>ver más. . . </h5></Link>
       </div>
       </div>
       <h2>Que junto con muchas otras personas formamos esta gran familia ❤️</h2>

@@ -1,6 +1,24 @@
-.navbar-container{
-  width: 100%;
-  height: 150px;
-  padding: 20px;
-  margin: 20px;
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.navbar-link:hover {
+  color: #FFC760;
+}
+
+.navbar-link:focus{
+  color: #FFC760;
 }

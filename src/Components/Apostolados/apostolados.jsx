@@ -26,7 +26,8 @@ const Apostolados = () => {
   const apostolados =
     [{ id: 20, nombre: "La Morada", descripcion: "Acompañamiento en un hogar para ancianos los días Miércoles, para más información comunicarse al Instagram!"},
     {id:21, nombre :"La Noche de Caridad", descripcion:"Entrega de alimentos y acompañamiento a personas en situación de calle, los días Lunes,para más información comunicarse al Instagram! "},
-    {id:22, nombre :"La Bajada San José", descripcion:"Apoyo escolar y entretenimiento a niños de un barrio humilde de nuestra ciudad,para más información comunicarse al Instagram! "}]
+      { id: 22, nombre: "La Bajada San José", descripcion: "Apoyo escolar y entretenimiento a niños de un barrio humilde de nuestra ciudad,para más información comunicarse al Instagram! " },
+    {id:23, nombre :"Catequesis", descripcion:"Dictado de catquesis de comunión y confirmación para niños,para más información comunicarse al Instagram! "}]
 
   return (
     <section className="apostolados-container">
