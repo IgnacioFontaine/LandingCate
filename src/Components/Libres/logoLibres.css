@@ -1,0 +1,15 @@
+.logo-libres{
+  width: 50%;
+  align-content: end;
+  background-color: transparent;
+  padding: 50px;
+}
+
+.logo-libres img {
+  max-width: 100%;
+  max-height: 1500px;
+  border-radius: 5%;
+  margin-top: 40px;
+  margin-right: 200px; 
+  padding: 15px;
+}

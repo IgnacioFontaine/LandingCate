@@ -1,5 +1,4 @@
 import "./description.css"
-import laCateLogo from "../../assets/LogoBlancoCruz.png"
 
 function Description() {
   
@@ -12,10 +11,7 @@ function Description() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui obcaecati fugit accusantium aspernatur tempore suscipit, eligendi molestiae modi nostrum quas reiciendis excepturi perferendis eos error asperiores unde. Aut, rem placeat?
         </p>
       </section>
-      <section className="description-logo">
-        <img src={laCateLogo} alt="La Cate logo" />
-      </section>
-    </div>
+      </div>
   )
 }
 
