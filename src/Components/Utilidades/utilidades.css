@@ -1,4 +1,4 @@
-.Apostolado {
+.Utilidad {
   display: flex;
   width: 600px; 
   height: 250px;
@@ -10,36 +10,38 @@
   margin: 15px;
 }
 
-.Apostolado:hover {
+.Utilidad:hover {
   transform: scale(1.05); 
 }
 
 
-.name-apostolado {
+.utilidad-name {
   text-align: center;
   color: #000;
-  font-size: 22px;
+  font-size: 30px;
+  padding: 15px;
+  margin-left: 100px;
 }
 
-.apostolado-image{
+.utilidad-image{
   text-align: start;
   background-color: #FFC760;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-   
+  width: 200px;
 }
 
-.apostolado-image img {
+.utilidad-image img {
   max-width: 100%;
-  max-height: 250px;
+  max-height: 200px;
   border-radius: 5%;
   margin-top: 10px;
   margin-left: 5px; 
-  margin-right: 50px;
+  margin-right: 10px;
   padding: 20px;
 }
 
-.apostolado-texto{
+.utilidad-texto{
   display: flex;
   flex-direction: column;
   color: #000;
@@ -49,12 +51,12 @@
   border-bottom-right-radius: 15px;
 }
 
-.apostolado-texto .icon-instagram{
+.utilidad-texto .utilidad-texto{
   text-align: end;
 
 }
 
-.icon-instagram a{
+.utilidad-texto a{
   height: 300px;
   margin-right: 25px;
   color: #000;

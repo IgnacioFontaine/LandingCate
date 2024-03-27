@@ -2,18 +2,17 @@ import "./utilidades.css"
 import { Link } from "react-router-dom";
 import apostoladoImage from "../../assets/LogoNegro.png"
 
-function CardUtilidades({id, nombre, descripcion, url_link}) {
+function CardUtilidades({id, nombre, url_link}) {
   const referencia = url_link;
   return (
-    <div className="Apostolado" key={id}>
-      <div  className="apostolado-image">
+    <div className="Utilidad" key={id}>
+      <div  className="utilidad-image">
         <img src={apostoladoImage} alt="La Cate" />
       </div>
-      <div className="apostolado-texto">
-        <h2 className="name-apostolado">{nombre}</h2>
-        <h4 className="description-apostolado">{descripcion}</h4>
-        <div className="icon-instagram">
-          <a href="" target="_blank" className="fa fa-instagram"></a>
+      <div className="utilidad-texto">
+        <h2 className="utilidad-name">{nombre}</h2>
+        <div className="utilidad-link">
+          <a href={`${referencia}`} target="_blank" className="fa fa-link"></a>
         </div>
       </div>
     </div>
@@ -25,31 +24,25 @@ const Utilidades = () => {
 
   const utilidades =
     [
-      { id: 30, nombre: "Cancionero con acordes", url_link: "" },
-      { id: 31, nombre: "Inscripciones", url_link: "" },
-      { id: 32, nombre: "Pascua Misionera", url_link: "" },
-      { id: 32, nombre: "Spotify", url_link: "" },
-      { id: 33, nombre: "YouTube", url_link: "" },
+      { id: 30, nombre: "Cancionero con acordes", url_link: "https://d1fdloi71mui9q.cloudfront.net/78LtaHmTjVPqansfbMOw_CANCIONERO%20CON%20ACORDES%20CATE%202019%20final%20A4.pdf%20(1).pdf" },
+      { id: 31, nombre: "Inscripciones Cate 2024! ", url_link: "https://docs.google.com/forms/d/e/1FAIpQLScIhSdAk7hGyfC2E5h_UBmP26Lrdt-B1WSLPqgLYfiXTyPHBg/closedform" },
+      { id: 32, nombre: "Pascua Misionera 2024", url_link: "https://docs.google.com/forms/d/e/1FAIpQLSdbQxARvKEHX59sK4TIWBC7bAJnDpedDbaVv1T8v3iD2i4ijQ/closedform" },
+      { id: 32, nombre: "FORMATE - Spotify", url_link: "https://open.spotify.com/show/1zgZ283Q6lP6MSSssA4PMt?si=38a4e3292a864b71" },
+      { id: 33, nombre: "  YouTube - Musicate  ", url_link: "https://youtube.com/playlist?list=PL0qcyWA4gm3_n4vQHDQRhnc0HTfdT3SpJ&si=roq5PwnTUtf3mZNL" },
     ]
 
   return (
     <section className="utilidades-container">
-      <h2>La Cate está compuesta por 3 sub grupos:</h2>
+      <h2>Enlaces útiles que podés chusmear. . .</h2>
       <div className="utilidades-container-group">
-        <div className="utilidades-group">
-        <h2>Cancionero con acordes</h2>
-        <Link to="/iniciate"><h5>ver más. . . </h5></Link>
-      </div>
-      <div className="utilidades-group">
-        <h2>CATE</h2>
-          <h4>Grupos de 4to a 1er año de la Facultad</h4>
-          <Link to="/cate"><h5>ver más. . . </h5></Link>
-      </div>
-      <div className="utilidades-group">
-        <h2>APOSTOLATE</h2>
-        <h4>Grupo Universitario</h4>
-        <Link to="/apostolate"><h5>ver más. . . </h5></Link>
-      </div>
+        {utilidades.map(util =>
+          <CardUtilidades
+            key={util.id}
+            id={util.id}
+            nombre={util.nombre}
+            url_link={util.url_link}
+          />
+          )}
       </div>
     </section>
   )
