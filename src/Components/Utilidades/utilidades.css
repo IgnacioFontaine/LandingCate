@@ -61,3 +61,12 @@
   margin-right: 25px;
   color: #000;
 }
+
+.utilidades-container{
+  margin-top: 70px;
+}
+
+.utilidades-container-group{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

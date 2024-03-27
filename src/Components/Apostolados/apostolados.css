@@ -58,3 +58,8 @@
   margin-right: 25px;
   color: #000;
 }
+
+.apostolados-cont{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

@@ -6,6 +6,8 @@
   margin-bottom: 25px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  position:fixed;
+  width: 1261px;
 }
 
 .navbar-link {

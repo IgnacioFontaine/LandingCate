@@ -1,5 +1,4 @@
 import "./utilidades.css"
-import { Link } from "react-router-dom";
 import apostoladoImage from "../../assets/LogoNegro.png"
 
 function CardUtilidades({id, nombre, url_link}) {
