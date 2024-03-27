@@ -1,14 +1,16 @@
 
 .Group {
   border: 1px solid rgb(255, 213, 128);
-  width: 100px; 
-  height: 50px;
-  background-color: chocolate;
+  width: 150px; 
+  height: 80px;
+  background-color: #FFC760;
   border-radius: 2px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: space-between;
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
+  text-align: center;
+  justify-content: center; 
 }
 
 .Group:hover {
@@ -19,15 +21,14 @@
 .name-group {
   text-align: center;
   color: #000;
-  font-size: 20px; 
-  padding: 1px;
+  font-size: 20px;
 }
 
 .cont-groups{
   display: grid;
-  margin: 10px;
+  margin: 15px;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 10px;
+  row-gap: 15px;
   margin-top: 0px;
   margin-bottom: 10px;
   justify-content: center;

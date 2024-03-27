@@ -1,10 +1,15 @@
 import "./apostolate.css"
+import Hero from "../../Components/Hero/hero"
+import apostolateImage from "../../assets/LogoBlancoCruz.png"
+import Apostolados from "../../Components/Apostolados/apostolados"
 
 const Apostolate = () => {
 
   return (
     <section className="apostolate-container">
-      <h1>Apostolate View</h1>
+      <Hero title={"  Apostolate  "} imagen={apostolateImage} />
+      <Apostolados />
+      
     </section>
   )
 }
