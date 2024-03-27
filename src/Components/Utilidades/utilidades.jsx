@@ -27,8 +27,8 @@ const Utilidades = () => {
       { id: 30, nombre: "Cancionero con acordes", url_link: "https://d1fdloi71mui9q.cloudfront.net/78LtaHmTjVPqansfbMOw_CANCIONERO%20CON%20ACORDES%20CATE%202019%20final%20A4.pdf%20(1).pdf" },
       { id: 31, nombre: "Inscripciones Cate 2024! ", url_link: "https://docs.google.com/forms/d/e/1FAIpQLScIhSdAk7hGyfC2E5h_UBmP26Lrdt-B1WSLPqgLYfiXTyPHBg/closedform" },
       { id: 32, nombre: "Pascua Misionera 2024", url_link: "https://docs.google.com/forms/d/e/1FAIpQLSdbQxARvKEHX59sK4TIWBC7bAJnDpedDbaVv1T8v3iD2i4ijQ/closedform" },
-      { id: 32, nombre: "FORMATE - Spotify", url_link: "https://open.spotify.com/show/1zgZ283Q6lP6MSSssA4PMt?si=38a4e3292a864b71" },
-      { id: 33, nombre: "  YouTube - Musicate  ", url_link: "https://youtube.com/playlist?list=PL0qcyWA4gm3_n4vQHDQRhnc0HTfdT3SpJ&si=roq5PwnTUtf3mZNL" },
+      { id: 32, nombre: " FORMATE - Spotify ", url_link: "https://open.spotify.com/show/1zgZ283Q6lP6MSSssA4PMt?si=38a4e3292a864b71" },
+      { id: 33, nombre: "MUSICATE - YouTube", url_link: "https://youtube.com/playlist?list=PL0qcyWA4gm3_n4vQHDQRhnc0HTfdT3SpJ&si=roq5PwnTUtf3mZNL" },
     ]
 
   return (
@@ -42,7 +42,7 @@ const Utilidades = () => {
             nombre={util.nombre}
             url_link={util.url_link}
           />
-          )}
+        )}
       </div>
     </section>
   )

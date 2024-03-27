@@ -51,12 +51,12 @@
   border-bottom-right-radius: 15px;
 }
 
-.utilidad-texto .utilidad-texto{
+.utilidad-texto .utilidad-link{
   text-align: end;
 
 }
 
-.utilidad-texto a{
+.utilidad-link a{
   height: 300px;
   margin-right: 25px;
   color: #000;
