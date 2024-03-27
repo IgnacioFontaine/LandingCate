@@ -1,15 +1,14 @@
 import "./hero.css"
-import logoCate from "../../assets/Logo.png"
 
-const Hero = () => {
+const Hero = ({title, imagen}) => {
 
   return (
     <section className="hero-container">
       <header className="hero-image">
-        <img src={logoCate} alt="La Cate" />
+        <img src={imagen} alt="La Cate" />
       </header>
       <body className="hero-title">
-        <h1>La Cate Grupo Juvenil</h1>
+        <h1>{title}</h1>
       </body>
     </section>
   )

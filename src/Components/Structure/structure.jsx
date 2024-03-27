@@ -1,4 +1,5 @@
 import "./structure.css"
+import { Link } from "react-router-dom";
 
 const Structure = () => {
 
@@ -7,19 +8,19 @@ const Structure = () => {
       <h2>La Cate está compuesta por 3 sub grupos:</h2>
       <div className="structure-container-group">
         <div className="structure-group">
-        <h2>Iniciate</h2>
+        <h2>INICIATE</h2>
         <h4>Grupos de 1er a 3er año</h4>
-        <h6>ver más. . . </h6>
+        <Link to="/iniciate"><h6>ver más. . . </h6></Link>
       </div>
       <div className="structure-group">
-        <h2>Cate</h2>
-        <h4>Grupos de 4to a 1er año de la Facultad</h4>
-        <h6>ver más. . . </h6>
+        <h2>CATE</h2>
+          <h4>Grupos de 4to a 1er año de la Facultad</h4>
+          <Link to="/cate"><h6>ver más. . . </h6></Link>
       </div>
       <div className="structure-group">
-        <h2>Apostolate</h2>
+        <h2>APOSTOLATE</h2>
         <h4>Grupo Universitario</h4>
-        <h6>ver más. . . </h6>
+        <Link to="/apostolate"><h6>ver más. . . </h6></Link>
       </div>
       </div>
       <h2>Que junto con muchas otras personas formamos esta gran familia ❤️</h2>

@@ -20,4 +20,16 @@
   margin: 30px;
   width: 250px;
   color: #000;
+  transition: transform 0.3s ease; 
 }
+
+.structure-group:hover {
+  transform: scale(1.1); 
+}
+
+.structure-group a{
+  text-decoration: none;
+  text-transform: none;
+  color: #000;
+}
+
