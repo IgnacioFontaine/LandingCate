@@ -1,4 +1,4 @@
-import "./ropa.css"
+import "./iniciate.css"
 
 const Iniciate = () => {
 
