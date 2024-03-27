@@ -1,10 +1,11 @@
+import Hero from "../../Components/Hero/hero";
 import "./home.css"
 
 const Home = () => {
 
   return (
     <section className="home-container">
-      <h1>Home View</h1>
+      <Hero />
     </section>
   )
 }
