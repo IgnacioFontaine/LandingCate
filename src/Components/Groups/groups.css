@@ -1,0 +1,66 @@
+
+.Group {
+  border: 1px solid rgb(255, 213, 128);
+  width: 100px; 
+  height: 50px;
+  background-color: chocolate;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  transition: transform 0.3s ease; 
+}
+
+.Group:hover {
+  transform: scale(1.1); 
+}
+
+
+.name-group {
+  text-align: center;
+  color: #000;
+  font-size: 20px; 
+  padding: 1px;
+}
+
+.cont-groups{
+  display: grid;
+  margin: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+
+  .cont-locations{
+  display: grid;
+  margin: 10px;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+  
+}
+
+@media screen and (max-width: 1040px) {
+
+  .cont-locations{
+  display: grid;
+  margin: 10px;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+  
+}
