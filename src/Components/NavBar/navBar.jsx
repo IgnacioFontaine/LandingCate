@@ -10,7 +10,7 @@ const NavBar = () => {
         <li>Cate</li>
         <li>Apostolate</li>
         <li>Ropa</li>
-        <li>Documentos</li>
+        <li>Útil</li>
       </ul>
     </section>
   )
