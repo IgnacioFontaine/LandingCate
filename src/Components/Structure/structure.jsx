@@ -22,6 +22,7 @@ const Structure = () => {
         <h6>ver más. . . </h6>
       </div>
       </div>
+      <h2>Que junto con muchas otras personas formamos esta gran familia ❤️</h2>
     </section>
   )
 }

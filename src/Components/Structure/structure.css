@@ -1,13 +1,23 @@
 .structure-container{
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 
-.structure-container{
+.structure-container-group{
   display: flex;
+  justify-content: center;
+  align-content: space-evenly;
   margin: 25px;
 }
 
 .structure-group{
   padding: 5px;
+  background-color: #FFC760;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 30px;
+  width: 250px;
+  color: #000;
 }
