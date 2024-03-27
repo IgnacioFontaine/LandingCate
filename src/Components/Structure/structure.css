@@ -1,7 +1,13 @@
 .structure-container{
+  display: flex;
+  flex-direction: column;
+}
 
+.structure-container{
+  display: flex;
+  margin: 25px;
 }
 
 .structure-group{
-  
+  padding: 5px;
 }
