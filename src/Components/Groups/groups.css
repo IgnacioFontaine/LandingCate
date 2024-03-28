@@ -90,5 +90,10 @@
   align-items: center;
   align-content: center;
 }
-  
+.locations-contenedor{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
 }

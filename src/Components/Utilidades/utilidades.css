@@ -81,5 +81,50 @@
     align-items: center;
     align-items: center;
   }
+  
+
+}
+
+@media screen and (max-width: 600px) {
+  .utilidades-container-group{
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  }
+  .Utilidad {
+  display: flex;
+  width: 350px; 
+  height: 250px;
+  border: 1px solid rgb(255, 213, 128);
+  background-color: #FFC760;
+  border-radius: 15px;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+  margin: 15px;
+  }
+    .utilidad-link a{
+    height: 150px;
+    margin-right: 25px;
+    color: #000;
+  }
+  .utilidad-name {
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.utilidad-image{
+  text-align: start;
+  background-color: #FFC760;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 200px;
+}
+  
 
 }
