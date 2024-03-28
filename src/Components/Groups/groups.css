@@ -45,9 +45,11 @@
 
 
 
+
+
 @media screen and (max-width: 1500px) {
 
-  .cont-locations{
+  .cont-groups{
   display: grid;
   margin: 10px;
   grid-template-columns: 1fr 1fr;
@@ -59,9 +61,25 @@
   
 }
 
+@media screen and (max-width: 800px) {
+
+  .cont-groups{
+  display: grid;
+  margin: 10px;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+  
+}
+
 @media screen and (max-width: 1040px) {
 
-  .cont-locations{
+  .cont-groups{
   display: grid;
   margin: 10px;
   grid-template-columns: 1fr;
