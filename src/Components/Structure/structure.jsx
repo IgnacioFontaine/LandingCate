@@ -23,7 +23,7 @@ const Structure = () => {
         <Link to="/apostolate"><h5>ver más. . . </h5></Link>
       </div>
       </div>
-      <h2 className="structure-text">Que junto con Comando, las familias, vocales, matrimonio asesor, cura asesor muchas otras personas formamos esta gran familia ❤️</h2>
+      <h2 className="structure-text">Que junto con COMANDO, las familias, vocales y consejo, matrimonio asesor, cura asesor muuuchas otras personas formamos esta gran familia ❤️</h2>
     </section>
   )
 }

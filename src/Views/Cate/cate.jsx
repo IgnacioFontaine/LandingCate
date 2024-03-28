@@ -17,7 +17,12 @@ const Cate = () => {
       { id: 9, nombre: "CAMIFE", significado: "Caminantes en la Vida y la Fe" },
       { id: 10, nombre: "AMIDIOS", significado: "Admirando la Humildad de Dios" },
       { id: 11, nombre: "SOSACRU", significado: "Soldados de la Santa Cruz" },
-      { id: 12, nombre: "TUFEGUI", significado:"Tu Fe nos Guiará" },]
+      { id: 12, nombre: "TUFEGUI", significado: "Tu Fe nos Guiará" },
+      { id: 13, nombre: "SINADI", significado: "Sinceros ante el Amor de Dios" },
+      { id: 14, nombre: "JUCADI", significado: "Juntos en el Camino de Dios" },
+      { id: 15, nombre: "MACADI", significado: "Con María Caminamos hacia Dios" },
+      { id: 16, nombre: "REPADI", significado: "Reunidos para Dios" },
+      { id: 17, nombre: "EMAUS", significado:"En manos de Jesús" },]
 
   return (
     <section className="cate-container">
