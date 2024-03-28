@@ -74,4 +74,55 @@
     align-items: center;
   }
 
+  .Apostolado {
+    display: flex;
+    width: 450px; 
+    height: 210px;
+    border: 1px solid rgb(255, 213, 128);
+    background-color: #FFC760;
+    border-radius: 15px;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+      margin: 10px;
+  }
+  .name-apostolado {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .apostolados-cont{
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  }
+
+  .Apostolado {
+    display: flex;
+    width: 350px; 
+    height: 200px;
+    border: 1px solid rgb(255, 213, 128);
+    background-color: #FFC760;
+    border-radius: 15px;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+      margin: 10px;
+  }
+  .name-apostolado {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+  }
+
+  .description-apostolado{
+    font-size: 12px;
+  }
+
 }
