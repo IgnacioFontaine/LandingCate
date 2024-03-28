@@ -22,14 +22,14 @@
   color: rgb(255, 191, 71);
   font-size: 15px;
   padding-left: 15px;
-  border-left: 2px solid rgb(255, 191, 71);;
+  border-left: 2px solid rgb(255, 191, 71);
 }
 
 .footer-link-contenedor a{
   text-decoration: none;
   text-transform: none;
   padding: 10px;
-  color: rgb(255, 191, 71);;
+  color: rgb(255, 191, 71);
   margin-top: 0px;
 }
 
@@ -51,11 +51,6 @@
 }
 
 .fa-tiktok {
-  color: wheat;
+  fill: rgb(255, 191, 71);
   height: 25px;
-}
-
-
-.fa-instagram {
-  
 }
