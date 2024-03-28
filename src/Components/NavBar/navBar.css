@@ -24,3 +24,19 @@
 .navbar-link:focus{
   color: #FFC760;
 }
+
+
+@media (max-width: 1300px) {
+  .navbar-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position:fixed;
+  width: 900px;
+  margin-left: 80px;
+}
+}
