@@ -1,6 +1,6 @@
 import "./hero.css"
 
-const Hero = ({title, imagen}) => {
+const Hero = ({title, imagen, frase}) => {
 
   return (
     <section className="hero-container">
@@ -9,6 +9,7 @@ const Hero = ({title, imagen}) => {
       </header>
       <body className="hero-title">
         <h1>{title}</h1>
+        <h6 className="hero-title-frase">{frase}</h6>
       </body>
     </section>
   )

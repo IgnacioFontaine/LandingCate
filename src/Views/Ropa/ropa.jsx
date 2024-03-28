@@ -4,7 +4,7 @@ const Ropa = () => {
 
   return (
     <section className="ropa-container">
-      <h1>Acá va la ropa</h1>
+      <h1>Merch ropa Cate</h1>
     </section>
   )
 }

@@ -29,6 +29,16 @@
   padding-right: 30px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.hero-title-frase{
+  margin-top: 0px;
+  text-align:center;
+  font-size: 15px;
+  font-family:monospace;
 }
 
 

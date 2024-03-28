@@ -5,6 +5,8 @@ import cateImage from "../../assets/LogoBlancoCruz.png"
 
 const Cate = () => {
 
+  const frase = `Y perseveraban unánimes cada día en el templo y, partiendo el pan en las casas, comían juntos con alegría y con sencillez de corazón. Hechos 2 46`
+
   const cate_groups =
     [ { id: 1, nombre: "CAFEDI", significado: "Construyendo Amistad en la Fe de Dios" },
       { id: 2, nombre: "NUCAVI", significado: "Nuestro Camino, Verdad y Vida" },
@@ -26,7 +28,7 @@ const Cate = () => {
 
   return (
     <section className="cate-container">
-      <Hero title={"Grupos Cate"} imagen={cateImage} />
+      <Hero title={"Grupos Cate"} imagen={cateImage} frase={frase} />
       <Groups grupos={cate_groups} />
     </section>
   )

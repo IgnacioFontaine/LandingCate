@@ -7,9 +7,11 @@ import LogoLibres from "../../Components/Libres/logoLibres";
 
 const Home = () => {
 
+  const frase = "Gracias por Invitarnos a ser Libres, Felices y Santos"
+
   return (
     <section className="home-container">
-      <Hero title={"La Cate Grupo Juvenil"} imagen={logoCate} /> 
+      <Hero title={"La Cate Grupo Juvenil"} imagen={logoCate} frase={frase} /> 
       <div className="description-logo">
         <Description />
         <LogoLibres />

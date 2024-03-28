@@ -21,6 +21,8 @@ function CardUtilidades({id, nombre, url_link}) {
 
 const Utilidades = () => {
 
+  //La Vitácora está virtual?? Hacerla y publicarla!!
+
   const utilidades =
     [
       { id: 30, nombre: "Cancionero con acordes", url_link: "https://d1fdloi71mui9q.cloudfront.net/78LtaHmTjVPqansfbMOw_CANCIONERO%20CON%20ACORDES%20CATE%202019%20final%20A4.pdf%20(1).pdf" },
