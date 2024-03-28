@@ -5,18 +5,11 @@ import Groups from "../../Components/Groups/groups";
 
 const Iniciate = () => {
   const iniciate_groups =
-    [{ id: 1, nombre: "REPADI", significado:"Reunidos para Dios" },
-      { id: 2, nombre: "MACADI" },
-      { id: 3, nombre: "HELAFE" },
-      { id: 4, nombre: "FRACODI" },
-      { id: 5, nombre: "REPADI" },
-      { id: 6, nombre: "REPADI" },
-      { id: 7, nombre: "REPADI" },
-      { id: 8, nombre: "REPADI" },
-      { id: 9, nombre: "REPADI" },
-      { id: 10, nombre: "REPADI" },
-      { id: 11, nombre: "REPADI" },
-      { id: 12, nombre: "REPADI" },]
+    [ { id: 1, nombre: "HELAFE", significado: "Hermanos en la Fe" },
+      { id: 2, nombre: "MIFEDIOS ", significado: "Misioneros de la Felicidad de Dios" },
+      { id: 3, nombre: "FRACODI ", significado: "Fraterno Corazón de Jesús" },
+      { id: 4, nombre: "COMADI", significado: "Nuestro Corazon en las manos de Dios" },
+      { id: 5, nombre: "LUDECRI", significado:"Luces de Cristo" },]
 
   return (
     <section className="iniciate-container">
