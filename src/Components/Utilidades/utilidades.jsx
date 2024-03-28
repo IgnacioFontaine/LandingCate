@@ -34,7 +34,7 @@ const Utilidades = () => {
 
   return (
     <section className="utilidades-container">
-      <h2>Enlaces útiles que podés chusmear. . .</h2>
+      <h2>Enlaces que te invitamos a chusmear. . . 👀</h2>
       <div className="utilidades-container-group">
         {utilidades.map(util =>
           <CardUtilidades

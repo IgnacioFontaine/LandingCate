@@ -20,7 +20,7 @@ function App() {
         <Route path="/iniciate" element={<Iniciate />} />
         <Route path="/cate" element={<Cate />} />
         <Route path="/apostolate" element={<Apostolate />} />
-        <Route path="/ropa" element={<Ropa />} />
+        {/* <Route path="/ropa" element={<Ropa />} /> */}
         <Route path="/util" element={<Descargables />} />
         <Route path="*" element={<Home />} />
       </Routes>

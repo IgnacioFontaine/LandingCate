@@ -9,8 +9,8 @@ const NavBar = () => {
       <Link to="/iniciate" className="navbar-link">Iniciate</Link>
       <Link to="/cate" className="navbar-link">Cate</Link>
       <Link to="/apostolate" className="navbar-link">Apostolate</Link>
-      <Link to="/ropa" className="navbar-link">Ropa</Link>
-      <Link to="/util" className="navbar-link">útiles</Link>
+      {/* <Link to="/ropa" className="navbar-link">Ropa</Link> */}
+      <Link to="/util" className="navbar-link">Útiles</Link>
     </section>
   )
 }
