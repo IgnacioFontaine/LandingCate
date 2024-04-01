@@ -21,10 +21,8 @@ function CardUtilidades({id, nombre, url_link}) {
 
 const Utilidades = () => {
 
-  //La Vitácora está virtual?? Hacerla y publicarla!!
-
   const utilidades =
-    [
+    [{id:34, nombre: "Bitácora de la Cate - Gracias GUADACRE", url_link:"https://drive.google.com/file/d/13EjXMFUadqn-3QaZgFMs5_ornqC8LyhD/view?usp=sharing"},
       { id: 30, nombre: "Cancionero con acordes", url_link: "https://d1fdloi71mui9q.cloudfront.net/78LtaHmTjVPqansfbMOw_CANCIONERO%20CON%20ACORDES%20CATE%202019%20final%20A4.pdf%20(1).pdf" },
       { id: 31, nombre: "Inscripciones Cate 2024! ", url_link: "https://docs.google.com/forms/d/e/1FAIpQLScIhSdAk7hGyfC2E5h_UBmP26Lrdt-B1WSLPqgLYfiXTyPHBg/closedform" },
       { id: 32, nombre: "Pascua Misionera 2024", url_link: "https://docs.google.com/forms/d/e/1FAIpQLSdbQxARvKEHX59sK4TIWBC7bAJnDpedDbaVv1T8v3iD2i4ijQ/closedform" },

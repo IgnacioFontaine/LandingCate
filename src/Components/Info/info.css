@@ -1,0 +1,94 @@
+.Info-Misa{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #FFC760;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+
+
+.eucaristia-image{
+  text-align: center;
+}
+
+.eucaristia-image img {
+  max-width: 100%;
+  max-height: 80px;
+  border-radius: 5%;
+  margin-top: 10px;
+  padding: 2px;
+}
+
+.info-div{
+  margin: 10px;
+}
+
+.info-div a{
+  color: #000;
+}
+
+
+.Info-Insc{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #FFC760;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.Info-Insc .title {
+  font-size: 30px;
+}
+
+.Info-Insc .paragraph {
+  font-size: 18px;
+}
+
+.Novedades{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #FFC760;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.Novedades .title{
+  font-size: 30px;
+}
+
+.novedades-cont .novedades-title {
+  font-size: 25px;
+}
+
+.novedades-cont li{
+  font-size: 20px;
+}
+
+
+
+.Info{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media screen and (max-width: 945px) {
+    .Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  
+}

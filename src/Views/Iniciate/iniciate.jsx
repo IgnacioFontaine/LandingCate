@@ -5,7 +5,7 @@ import Groups from "../../Components/Groups/groups";
 
 const Iniciate = () => {
 
-  const frase = "…si no os volvéis y os hacéis como niños, no entraréis en el reino de los cielos.Así que, cualquiera que se humille como este niño, ése es el mayor en el reino de los cielos. Mateo 18:3-4"
+  const frase = "…si no os volvéis y os hacéis como niños, no entraréis en el reino de los cielos. Mateo 18:3-4"
   const iniciate_groups =
     [ { id: 1, nombre: "HELAFE", significado: "Hermanos en la Fe" },
       { id: 2, nombre: "MIFEDIOS ", significado: "Misioneros de la Felicidad de Dios" },

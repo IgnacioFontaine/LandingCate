@@ -1,10 +1,10 @@
 import "./logoLibres.css"
-import laCateLogo from "../../assets/LogoBlancoCruz.png"
+import LibresLogo from "../../assets/LibresLogo.png"
 
 const LogoLibres = () => {
   return (
     <section className="logo-libres">
-        <img src={laCateLogo} alt="La Cate logo" />
+        <img src={LibresLogo} alt="La Cate logo" />
       </section>
   )
 }

@@ -4,6 +4,7 @@ import Structure from "../../Components/Structure/structure";
 import "./home.css"
 import logoCate from "../../assets/Logo.png"
 import LogoLibres from "../../Components/Libres/logoLibres";
+import Info from "../../Components/Info/info";
 
 const Home = () => {
 
@@ -17,6 +18,7 @@ const Home = () => {
         <LogoLibres />
       </div>
       <Structure />
+      <Info />
     </section>
   )
 }
