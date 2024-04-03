@@ -28,6 +28,32 @@ const InfoInscrip = () => {
   )
 }
 
+const cuentaSantopedia = () => {
+  return (
+    <div className="Info-Cuentas">
+      <div className="image-cont"></div>
+      <div className="texto-cont">
+        <h2 className="title">Santopedia</h2>
+        <p className="paragraph">¡Te contamos un poco del santo de cada día!</p>
+        <a href="https://www.instagram.com/santopedia/" target="_blank" className="fa fa-instagram"></a>
+      </div>
+    </div>
+  )
+}
+
+const cuentaVicaria= () => {
+  return (
+    <div className="Info-Cuentas">
+      <div className="image-cont"></div>
+      <div className="texto-cont">
+        <h2 className="title">Vicaría de los Jóvenes</h2>
+        <p className="paragraph">Surge la Vicaría con la intención de acompañar a los jóvenes!</p>
+        <a href="https://www.instagram.com/vicariadejovenescba/" target="_blank" className="fa fa-instagram"></a>
+      </div>
+    </div>
+  )
+}
+
 
 const Novedades = () => {
   return (
