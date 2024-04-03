@@ -1,6 +1,6 @@
 import Eucaristia from "../../assets/Eucaristia.png"
-// import Santopedia from "../../assets/Santopedia.png"
-// import Vicaria from "../../assets/Vicaria.png"
+import Santopedia from "../../assets/Santopedia.jpg"
+import Vicaria from "../../assets/Vicaria.jpg"
 import "./info.css"
 
 const InfoMisa = () => {
@@ -33,9 +33,9 @@ const InfoInscrip = () => {
 const CuentaSantopedia = () => {
   return (
     <div className="Info-Cuentas">
-      {/* <div  className="cuentas-image">
+      <div  className="cuentas-image">
         <img src={Santopedia} alt="Santopedia" />
-      </div> */}
+      </div>
       <div className="texto-cont">
         <h2 className="title">Santopedia</h2>
         <p className="paragraph">¡Te contamos un poco del santo de cada día!</p>
@@ -48,9 +48,9 @@ const CuentaSantopedia = () => {
 const CuentaVicaria= () => {
   return (
     <div className="Info-Cuentas">
-      {/* <div  className="cuentas-image">
+      <div  className="cuentas-image">
         <img src={Vicaria} alt="Vicaría de los Jóvenes" />
-      </div> */}
+      </div>
       <div className="texto-cont">
         <h2 className="title">Vicaría de los Jóvenes</h2>
         <p className="paragraph">Surge la Vicaría con la intención de acompañar a los jóvenes!</p>
