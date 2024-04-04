@@ -64,7 +64,7 @@ const CuentaVicaria= () => {
 const InfoEvangelio= () => {
   return (
     <div className="Info-Cuentas">
-      <div  className="cuentas-image">
+      <div  className="cuentas-image-evangelio">
         <img src={Biblia} alt="Biblia" />
       </div>
       <div className="info-div">
