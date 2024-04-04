@@ -72,7 +72,7 @@ const InfoEvangelio= () => {
         <h3 className="info">
           Leé el evangelio del día en la siguiente Web 👇
         </h3>
-        <a href="https://maps.app.goo.gl/oAW4eW4TTgZ5wvnd8" target="_blank" className=" fa-book-bible" >
+        <a href="https://evangeliodeldia.org/SP/gospel" target="_blank" className=" fa-book-bible" >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="30" height="30">
           <path d="M176 0c-26.5 0-48 21.5-48 48v80H48c-26.5 0-48 21.5-48 48v32c0 26.5 21.5 48 48 48h80V464c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V256h80c26.5 0 48-21.5 48-48V176c0-26.5-21.5-48-48-48H256V48c0-26.5-21.5-48-48-48H176z" />
         </svg>
