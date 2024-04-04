@@ -7,8 +7,8 @@ function Description() {
       <section  id="description-cate" className="description-cate"  >
           <h2 >¿Qué es la Cate?</h2>
           <p className="description-parragraph" >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque architecto, magnam ipsum aliquid voluptates fugiat quo velit ab necessitatibus praesentium obcaecati et cupiditate placeat ea aut optio voluptatem odit. Sapiente?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui obcaecati fugit accusantium aspernatur tempore suscipit, eligendi molestiae modi nostrum quas reiciendis excepturi perferendis eos error asperiores unde. Aut, rem placeat?
+          Somos un grupo Juvenil que se encuentra todos los Sábados por la tarde para reflexionar de un tema en particular, divididos por edades en grupos y compartir una merienda que entre risas y charlas transforma nuestra tarde en un momento lleno de Dios.
+          Al año participamos de dos Campamentos que son una experiencia hermosa donde logramos compartir con otros grupos y vivir momentos únicos, llenos de Fe y amistad.
         </p>
       </section>
       </div>
