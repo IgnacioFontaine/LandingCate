@@ -4,6 +4,7 @@
   background-color: transparent;
   padding: 50px;
   align-items: center;
+  margin-top: 100px;
 }
 
 .logo-libres img {
@@ -14,4 +15,46 @@
   justify-content: center;
   margin-bottom: 120px;
   align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+
+  .logo-libres{
+  width: 100%;
+  align-content: end;
+  background-color: transparent;
+  padding: 50px;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .logo-libres{
+  width: 100%;
+  align-content: end;
+  background-color: transparent;
+  padding: 50px;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 1px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .logo-libres{
+  width: 100%;
+  align-content: center;
+  background-color: transparent;
+  padding: 20px;
+  align-items: center;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
 }
