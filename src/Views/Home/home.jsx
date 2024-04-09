@@ -5,6 +5,7 @@ import "./home.css"
 import logoCate from "../../assets/Logo.png"
 import LogoLibres from "../../Components/Libres/logoLibres";
 import Info from "../../Components/Info/info";
+import Oracion from "../../Components/Oracion/oracion";
 
 const Home = () => {
 
@@ -19,6 +20,7 @@ const Home = () => {
       </div>
       <Structure />
       <Info />
+      <Oracion />
     </section>
   )
 }

@@ -1,0 +1,31 @@
+.Oracion {
+  width: 100%;
+  height: 100%;
+  margin: 15px;
+  border-radius: 20px;
+  padding: 2px;
+  /* border: 2px rgb(255, 186, 83); */
+  /* border-style: dashed; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #FFF4D9;
+}
+
+.Oracion-title{
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+.Oracion-paragraph {
+  font-size: 23px;
+  font-style:italic;
+  text-align: center;
+  text-align-last: center;
+  margin: 40px;
+  margin-top: 30px;
+  color: rgb(39, 39, 39);
+  justify-content: center;
+}
