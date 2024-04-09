@@ -13,7 +13,7 @@ const InfoMisa = () => {
       <div className="info-div">
         <h2 className="title">Santa Misa</h2>
         <h3 className="info">
-          Sábados  19hs
+          Sábados  18:30hs
           en la Catedral de Córdoba
         </h3>
         <a href="https://maps.app.goo.gl/oAW4eW4TTgZ5wvnd8" target="_blank" className="fa fa-map-marker"></a>
