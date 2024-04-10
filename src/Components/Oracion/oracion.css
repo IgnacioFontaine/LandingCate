@@ -1,11 +1,8 @@
 .Oracion {
   width: 100%;
   height: 100%;
-  margin: 15px;
   border-radius: 20px;
   padding: 2px;
-  /* border: 2px rgb(255, 186, 83); */
-  /* border-style: dashed; */
   display: flex;
   flex-direction: column;
   margin-top: 100px;
@@ -34,7 +31,6 @@
   .Oracion {
     width: 100%;
     height: 100%;
-    margin: 1px;
     border-radius: 20px;
     padding: 0px;
     display: flex;
