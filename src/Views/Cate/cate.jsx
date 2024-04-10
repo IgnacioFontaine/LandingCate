@@ -24,12 +24,15 @@ const Cate = () => {
       { id: 14, nombre: "JUCADI", significado: "Juntos en el Camino de Dios" },
       { id: 15, nombre: "MACADI", significado: "Con María Caminamos hacia Dios" },
       { id: 16, nombre: "REPADI", significado: "Reunidos para Dios" },
-      { id: 17, nombre: "EMAUS", significado:"En manos de Jesús" },]
+      { id: 17, nombre: "EMAUS", significado: "En manos de Jesús" },]
+  
+  const testimonios_cate = [{id:60, nombre:"Ignacio Fontaine", años:"2015-2019" ,experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "},{id:60, nombre:"Ignacio Fontaine", años:"2015-2019",experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}, {id:60, nombre:"Ignacio Fontaine", experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "},{id:60, nombre:"Ignacio Fontaine", años:"2015-2019" ,experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}, {id:60, nombre:"Ignacio Fontaine", experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}]
 
   return (
     <section className="cate-container">
       <Hero title={"Grupos Cate"} imagen={cateImage} frase={frase} />
       <Groups grupos={cate_groups} />
+      {/* <Testimonios testimonios={testimonios_cate} /> */}
     </section>
   )
 }

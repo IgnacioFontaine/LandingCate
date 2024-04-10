@@ -14,13 +14,13 @@ const Iniciate = () => {
       { id: 4, nombre: "COMADI", significado: "Nuestro Corazon en las manos de Dios" },
       { id: 5, nombre: "LUDECRI", significado: "Luces de Cristo" },]
   
-  const testimonios_cate = [{id:60, nombre:"Ignacio Fontaine", años:"2015-2019" ,experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "},{id:60, nombre:"Ignacio Fontaine", años:"2015-2019",experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}, {id:60, nombre:"Ignacio Fontaine", experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "},{id:60, nombre:"Ignacio Fontaine", años:"2015-2019" ,experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}, {id:60, nombre:"Ignacio Fontaine", experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}]
+  const testimonios_iniciate = [{id:60, nombre:"Ignacio Fontaine", años:"2015-2019" ,experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "},{id:60, nombre:"Ignacio Fontaine", años:"2015-2019",experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}, {id:60, nombre:"Ignacio Fontaine", experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "},{id:60, nombre:"Ignacio Fontaine", años:"2015-2019" ,experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}, {id:60, nombre:"Ignacio Fontaine", experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}]
 
   return (
     <section className="iniciate-container">
       <Hero title={"Grupos Iniciate"} imagen={iniciateImage} frase={frase} />
       <Groups grupos={iniciate_groups} />
-      {/* <Testimonios testimonios={testimonios_cate} /> */}
+      {/* <Testimonios testimonios={testimonios_iniciate} /> */}
     </section>
   )
 }
