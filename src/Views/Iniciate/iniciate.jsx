@@ -20,7 +20,7 @@ const Iniciate = () => {
     <section className="iniciate-container">
       <Hero title={"Grupos Iniciate"} imagen={iniciateImage} frase={frase} />
       <Groups grupos={iniciate_groups} />
-      <Testimonios testimonios={testimonios_cate} />
+      {/* <Testimonios testimonios={testimonios_cate} /> */}
     </section>
   )
 }
