@@ -15,9 +15,12 @@
   justify-content: start;
   text-align: center;
 }
+.description-title{
+  font-size: 35px;
+}
 
 .description .description-parragraph {
-  font-size: 25px;
+  font-size: 30px;
   font-style:italic;
   text-align: center;
   text-align-last: center;
