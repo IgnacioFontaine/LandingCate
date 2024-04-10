@@ -1,0 +1,149 @@
+.testimonio-card{
+  border: 1px solid rgb(255, 213, 128);
+  width: 500px; 
+  height: 200px;
+  background-color: #FFC760;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  transition: transform 0.3s ease; 
+}
+
+.testimonio-nombre{
+  text-align: start;
+  margin-left: 25px;
+  color: #000;
+  font-size: 22px;
+  display: flex;
+}
+
+.testimonio-nombre .testimonio-años{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-left: 25px;
+  color: #3d3d3d;
+  font-size: 15px;
+}
+
+.testimonio-card .testimonio-experiencia{
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  margin-top: -1px;
+}
+
+
+/* .testimonio-card:hover {
+  transform: scale(1.1); 
+} */
+
+
+.cont-testimonios{
+  display: grid;
+  margin: 15px;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 15px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  justify-content: center;
+  padding-left: 150px;
+}
+
+.title-testimonios{
+  margin-top: 200px;
+}
+
+.contenedor-testi{
+  margin-left: -75px;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .cont-testimonios{
+  display: grid;
+  margin: 10px;
+  grid-template-columns: 1fr;
+  row-gap: 15px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+}
+
+@media screen and (max-width: 680px) {
+
+  .cont-testimonios{
+  display: grid;
+  margin: 10px;
+  margin-left: -100px;
+  grid-template-columns: 1fr;
+  row-gap: 15px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+}
+
+@media screen and (max-width: 580px) {
+    .cont-testimonios{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: -100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .testimonio-card{
+  border: 1px solid rgb(255, 213, 128);
+  width: 300px; 
+  height: 180px;
+  background-color: #FFC760;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  transition: transform 0.3s ease; 
+}
+
+.testimonio-nombre{
+  text-align: start;
+  margin-left: 25px;
+  color: #000;
+  font-size: 15px;
+  display: flex;
+}
+
+.testimonio-nombre .testimonio-años{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 20px;
+  color: #3d3d3d;
+  font-size: 12px;
+}
+
+.testimonio-card .testimonio-experiencia{
+  text-align: center;
+  color: #000;
+  font-size: 13px;
+  margin-top: -1px;
+}
+
+
+}
