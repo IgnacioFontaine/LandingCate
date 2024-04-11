@@ -1,5 +1,4 @@
 import "./apostolados.css"
-import { Link } from "react-router-dom";
 import apostoladoImage from "../../assets/LogoNegro.png"
 
 

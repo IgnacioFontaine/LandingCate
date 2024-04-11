@@ -26,7 +26,7 @@ const Cate = () => {
       { id: 16, nombre: "REPADI", significado: "Reunidos para Dios" },
       { id: 17, nombre: "EMAUS", significado: "En manos de Jesús" },]
   
-  const testimonios_cate = [{id:60, nombre:"Ignacio Fontaine", años:"2015-2019" ,experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "},{id:60, nombre:"Ignacio Fontaine", años:"2015-2019",experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}, {id:60, nombre:"Ignacio Fontaine", experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "},{id:60, nombre:"Ignacio Fontaine", años:"2015-2019" ,experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}, {id:60, nombre:"Ignacio Fontaine", experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}]
+  const testimonios_cate = [{id:70, nombre:"Paulina Torres", años:"1991-1998" ,experiencia:"La Cate es el lugar en el que encontré a Dios y amigos muy queridos con quienes compartir durante toda la vida el regalo de la fe!"},]
 
   return (
     <section className="cate-container">

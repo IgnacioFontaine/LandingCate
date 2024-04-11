@@ -14,7 +14,7 @@ const Iniciate = () => {
       { id: 4, nombre: "COMADI", significado: "Nuestro Corazon en las manos de Dios" },
       { id: 5, nombre: "LUDECRI", significado: "Luces de Cristo" },]
   
-  const testimonios_iniciate = [{id:60, nombre:"Ignacio Fontaine", años:"2015-2019" ,experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "},{id:60, nombre:"Ignacio Fontaine", años:"2015-2019",experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}, {id:60, nombre:"Ignacio Fontaine", experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "},{id:60, nombre:"Ignacio Fontaine", años:"2015-2019" ,experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}, {id:60, nombre:"Ignacio Fontaine", experiencia:"Entré a la Cate en 2015 y desde entonces es un pilar fundamental en mi Vida y mi Fe, los Silucri mi grupo son personas muy importantes para mi. "}]
+  const testimonios_iniciate = [{id:60, nombre:"Tristán Dellavedova", años:"1986 1998" ,experiencia:"La Cate me dió un grupo de amigos  que conservo hasta hoy, con quienes crecí, compartiendo valores, y la experiencia de comunidad en la Fe, o sea, ser Iglesia!"},]
 
   return (
     <section className="iniciate-container">
